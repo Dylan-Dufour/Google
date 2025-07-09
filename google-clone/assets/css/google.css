@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+header ul{
+    display: flex;
+}
+#compte{
+    background-color: blueviolet;
+    border-radius: 100%;
+    font-size: large;
+    padding: 2px;
+
+}
+.container{
+    text-align: center;
+    position: relative;
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 30%;
+    height: 30px;
+    border-radius: 30px;
+}
+img{
+    height: 15px;
+    width: 15px;
+}
+#loupe {
+    position: absolute;
+    left: 36%;
+    top:55%;
+
+}
+#micro {
+    position: absolute;
+    right: 37%;
+    top:55%;
+
+}
+#camera {
+    position: absolute;
+    right: 36%;
+    top:55%;
+
+}
+hr{
+    width: 100vw;
+}
+.search-populaire {
+    display: none;
+}
+.search-populaire ul {
+    padding: 0px;
+}
+.search-populaire img{
+    margin-right: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+
+}
+footer ul{
+    display: flex;
+}
+@media screen and (min-width:767px) and (max-width:990px) {
+    .container ul {
+        display: none;
+    }
+   
+  .logo {
+    width: 70%;
+  }
+
+   input {
+  
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  .search-populaire {
+    display: block;
+}
+
+  .buttons button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+#micro{
+    display: none;
+    
+}
+#loupe {
+   
+    left: 5%;
+    
+
+}
+
+#camera {
+   
+    right: 5%;
+    
+}
+.footer-list{
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+}
+@media screen and (max-width: 768px) {
+    .container ul {
+        display: none;
+    }
+    .logo {
+    width: 70%;
+  }
+
+   input {
+  
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .search-populaire {
+    display: block;
+}
+
+  .buttons button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+#micro{
+    display: none;
+    
+}
+#loupe {
+   
+    left: 13%;
+    top:50%
+    
+
+}
+
+#camera {
+   
+    right: 13%;
+    top:50%
+    
+}
+.footer-list{
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+   
+    
+}
+.footer-list ul{
+    margin: 0;
+    
+}
+    
+}
+
+
